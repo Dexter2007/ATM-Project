@@ -9,7 +9,7 @@ function depositAmount() {
     const depositInput = document.getElementById('deposit');
     const depositValue = parseFloat(depositInput.value);
 
-    if (isNaN(depositValue) || depositValue <= 0) {
+    if (isNaN(depostValue) || depositValue <= 0) {
         alert('Please enter a valid amount to deposit.');
     } else {
         balance = balance + depositValue;
@@ -43,4 +43,8 @@ window.onload = function() {
 
     updateBalanceDisplay();
 
+}
+
+function addNumbers (a,b){
+return a+b;
 }
